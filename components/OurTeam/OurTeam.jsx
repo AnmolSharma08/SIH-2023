@@ -22,7 +22,7 @@ const teamMembers = [
       image: "/member3.jpeg",
     },
     {
-      name: "Bhavishya Khandelwal",
+      name: "Bhavishaya  Khandelwal",
       role: "API Expert",
       description: "Bhavishya is an API expert who sets up the essential connections for the website.and also helps in team total efforts.",
       image: "/member4.jpeg",
@@ -37,7 +37,7 @@ const teamMembers = [
       name: "Vidhita Sharma",
       role: "Project Coordinator",
       description: "Vidhita manages project coordination .She excels in organization, communication, and presentation.",
-      image: "/member6.jpeg",
+      image: "/member7.jpeg",
     },
   ];
 
