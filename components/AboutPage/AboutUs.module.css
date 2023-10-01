@@ -1,0 +1,82 @@
+/* components/AboutUs/AboutUs.module.css */
+
+.aboutUs {
+  background-color: #222;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.heading {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 4rem;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: row; /* Display elements side by side */
+  align-items: flex-start; /* Align elements at the top */
+  justify-content: space-between; /* Space between elements */
+  flex-wrap: wrap; /* Allow elements to wrap to the next line in smaller screens */
+}
+
+.carouselContainer {
+  flex: 1; /* Take up half of the available space */
+  max-width: 50%; /* Limit the width of the slider container */
+  margin-right: 2rem; /* Add spacing between the slider and paragraph */
+}
+
+.carousel .slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  max-height: 100%;
+}
+
+.carousel .slide img {
+  max-width: 100%;
+}
+
+.aboutText {
+  flex: 1; /* Take up half of the available space */
+  text-align: left;
+  max-width: 50%;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  /* line-height: 2rem; */
+}
+.aboutText spna{
+  color: yellow;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .contentContainer {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center-align elements */
+  }
+.heading{
+  font-size: 3rem;
+}
+  .carouselContainer,
+  .aboutText {
+    max-width: 100%; /* Allow elements to take up full width */
+    margin-right: 0; /* Remove spacing between elements */
+  }
+  .aboutText{
+    font-size: 1rem;
+    /* line-height: 1.5rem; */
+  }
+}
+
+@media (max-width:460px) {
+  .heading{
+    font-size: 2rem;
+  }
+  .aboutText{
+    font-size: 0.8rem;
+  }
+  
+}

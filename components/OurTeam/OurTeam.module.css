@@ -1,0 +1,50 @@
+/* MeetOurTeam.module.css */
+
+.teamContainer {
+    background-color: #202020;
+    padding: 10px 0;
+    text-align: center;
+  }
+  .teamContainer h1{
+    color: white;
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin-bottom: 4rem;
+  }
+  .members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .memberBox {
+    background-color: white;
+    color: #222;
+    width: 350px; /* Set the width of the box */
+    min-height: 450px; /* Set the minimum height to ensure the box is square */
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Add padding to keep content inside the box */
+    box-sizing: border-box; /* Include padding and border in the box's total width and height */
+    transition: all 0.3s ease;
+  }
+  .memberBox:hover {
+    transform: scale(1.05); /* Increase size on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add box shadow on hover */
+    border: 2px solid #ffffff; /* Add border on hover */
+  }
+  
+
+  @media (max-width: 768px) {
+    .teamContainer h1{
+    font-size: 3rem;
+  }  
+  }
+  
+  @media (max-width:460px) {
+    .teamContainer h1{
+      font-size: 2rem;
+    }  
+  }
